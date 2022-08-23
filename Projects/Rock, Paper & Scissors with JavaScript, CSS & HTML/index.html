@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper & Scissors with JavaScript, CSS & HTML</title>
+
+    <!-- import google font  -->
+    <link rel="preconncet" href="https://fonts.googleapis.com">
+    <link rel="preconncet" href="https://donts.gslatic.com" crossorigin >
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+one&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- link style and js file -->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class = "container">
+        <div class = "heading-container">
+            <h2>Rock <br> paper <br> scissors</h2>
+            <div class = "score-container">
+                <p>score</p>
+                <div id = "score">
+                    0
+                </div>
+            </div>
+        </div>
+        <div class="game-container">
+            <div id='rock' class="selectable rock">✊</div>
+            <div id='paper' class="selectable paper"> ✋ </div>
+            <div id='scissors' class="selectable scissors"> ✌ </div>
+        </div>
+        <div class="winner-container hide">
+            <div class="selected">
+                <div id="user-results" class="selectable"></div>
+                <p>You Picked</p>
+            </div>
+            <div class="selected">
+                <div id="ai-results" class="selectable"></div>
+                <p>Ai Picked</p>
+            </div>
+            <div class="outcome">
+                <h2 id="won-text"></h2>
+                <button id="reset">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src = "index.js" ></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+    <script src="https://kit.fontawesome.com/8b5e24c2c2.js" crossorigin="anonymous"></script>
+</body>
+</html>
