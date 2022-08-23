@@ -25,7 +25,8 @@ Object.keys(projects).forEach(element => {
         // document.querySelector('.popout-img .img').src = image.getAttribute('src');
 
         document.querySelector('.popout-img span').onclick = () => {
-        document.querySelector('.popout-img').style.display = 'none';
+            frame.src = '';
+            document.querySelector('.popout-img').style.display = 'none';
         }
 
     } )
