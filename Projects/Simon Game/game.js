@@ -16,8 +16,15 @@ $(document).keypress(() => {
         $('#level-title').text('level' + ' ' + level) ;
     };
     keyPressed = true;
-    
 });
+
+$('#button').click( function() {
+    if (keyPressed === false) {
+        nextSequence()
+        $('#level-title').text('level' + ' ' + level) ;
+    };
+    keyPressed = true;
+})
 
 buttons.click( function() {
     // function for button clicked
@@ -35,6 +42,13 @@ function startOver(){
     if (highScore < level) {highScore = level};
     level = 0;
     keyPressed = false;
+    $('#button').click( function() {
+        if (keyPressed === false) {
+            nextSequence()
+            $('#level-title').text('level' + ' ' + level) ;
+        };
+        keyPressed = true;
+    })
     $('#score').text(highScore)
 }
 function nextSequence() {
@@ -68,7 +82,7 @@ function checkAnswer(currentLevel) {
     } else {
         playSound('wrong');
         $('body').addClass('game-over');
-        $('#level-title').text('Game Over, Press Any Key to Restart') ;
+        $('#level-title').html('Game Over, Press Any Key to Restart or click <button id ="button" >here</button>');
         setTimeout(function(){  $('body').removeClass('game-over') }, 200);
         startOver();
     }
