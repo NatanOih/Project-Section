@@ -12,7 +12,8 @@ const projects = {
     'pizza' : 'Projects\\Responsive Pizza Website\\index.html',
     'rpc' : 'Projects\\Rock, Paper & Scissors with JavaScript, CSS & HTML\\index.html',
     'ttt' : 'Projects\\Tic Tac Toe\\index.html',
-    'tindog' : 'Projects\\TinDog\\TinDog-Start-master\\index.html'
+    'tindog' : 'Projects\\TinDog\\TinDog-Start-master\\index.html',
+    'simon' : 'Projects\\Simon Game\\index.html'
 }
 
 
