@@ -13,7 +13,8 @@ const projects = {
     'rpc' : 'Projects\\Rock, Paper & Scissors with JavaScript, CSS & HTML\\index.html',
     'ttt' : 'Projects\\Tic Tac Toe\\index.html',
     'tindog' : 'Projects\\TinDog\\TinDog-Start-master\\index.html',
-    'simon' : 'Projects\\Simon Game\\index.html'
+    'simon' : 'Projects\\Simon Game\\index.html',
+    'todolist' : "https://cryptic-dusk-14077.herokuapp.com"
 }
 
 
