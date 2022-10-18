@@ -14,7 +14,8 @@ const projects = {
     'ttt' : 'Projects\\Tic Tac Toe\\index.html',
     'tindog' : 'Projects\\TinDog\\TinDog-Start-master\\index.html',
     'simon' : 'Projects\\Simon Game\\index.html',
-    'todolist' : "https://cryptic-dusk-14077.herokuapp.com"
+    'todolist' : "https://cryptic-dusk-14077.herokuapp.com",
+    'blog' : "https://obscure-dusk-59709.herokuapp.com"
 }
 
 
